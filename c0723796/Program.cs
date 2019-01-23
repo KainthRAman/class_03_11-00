@@ -11,16 +11,15 @@ namespace c0723796
         static void Main(string[] args)
         {
             int sum = 0;
-            for (int i = 14; i>10;)
+            int i = 0;
+            while (i < 6)
             {
                 i++;
                 sum += i;
             }
             Console.WriteLine(sum);
+            Console.ReadLine();
+            //ramanc0723796
         }
     }
-}
-class icecream
-{
-
 }
