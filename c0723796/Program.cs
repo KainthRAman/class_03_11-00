@@ -10,6 +10,13 @@ namespace c0723796
     {
         static void Main(string[] args)
         {
+            int sum = 0;
+            for (int i = 14; i>10;)
+            {
+                i++;
+                sum += i;
+            }
+            Console.WriteLine(sum);
         }
     }
 }
