@@ -12,13 +12,12 @@ namespace c0723796
         {
             int sum = 0;
             int i = 0;
-            while (i < 6)
+            while (i < 5)
             {
                 i++;
                 sum += i;
             }
-            Console.WriteLine(sum);
-            Console.ReadLine();
+            Console.WriteLine("sum is {0}", sum);
             //ramanc0723796
         }
     }
