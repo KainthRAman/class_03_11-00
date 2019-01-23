@@ -20,3 +20,7 @@ namespace c0723796
         }
     }
 }
+class icecream
+{
+
+}
